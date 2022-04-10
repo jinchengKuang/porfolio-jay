@@ -23,21 +23,21 @@ import {
 const Skills = () => {
 	return (
 		<div>
-			<div className='text-center text-blue-600 tracking-wide font-extrabold text-3xl mx-auto my-12'>
+			<div className='text-center text-blue-600 tracking-wide font-extrabold text-5xl mx-auto my-12'>
 				Skills
 			</div>
 			<div className='container flex flex-row gap-8 flex-wrap justify-center mx-auto my-5 max-w-5xl'>
 				{/* languages */}
 				<div class='p-6 w-1/4 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
 					<a href='/#'>
-						<h5 class='mb-2 text-2xl font-semibold tracking-tight text-center text-blue-500 dark:text-white gap-2'>
+						<h5 class='mb-5 text-2xl font-semibold text-center text-blue-500 dark:text-white'>
 							Languages
 						</h5>
 					</a>
-					<div className='flex flex-row items-center justify-evenly'>
+					<div className='flex flex-row items-center justify-evenly  gap-2'>
 						<SiC size={30} />
-						<SiCplusplus size={35} />
-						<SiPython size={35} />
+						<SiCplusplus size={30} />
+						<SiPython size={30} />
 						<SiJavascript size={30} />
 						<SiJava size={30} />
 					</div>
@@ -46,7 +46,7 @@ const Skills = () => {
 				{/* front end */}
 				<div class='p-6 w-1/4 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
 					<a href='/#'>
-						<h5 class='mb-2 text-2xl font-semibold tracking-tight text-center text-blue-500 dark:text-white'>
+						<h5 class='mb-5 text-2xl font-semibold text-center text-blue-500 dark:text-white'>
 							Front End
 						</h5>
 					</a>
@@ -62,7 +62,7 @@ const Skills = () => {
 				{/* back end */}
 				<div class='p-6 w-1/4 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
 					<a href='/#'>
-						<h5 class='mb-2 text-2xl font-semibold tracking-tight text-center text-blue-500 dark:text-white'>
+						<h5 class='mb-5 text-2xl font-semibold  text-center text-blue-500 dark:text-white'>
 							Back End
 						</h5>
 					</a>
@@ -78,7 +78,7 @@ const Skills = () => {
 				{/* tools */}
 				<div class='p-6 w-1/4 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
 					<a href='/#'>
-						<h5 class='mb-2 text-2xl font-semibold tracking-tight text-center text-blue-500 dark:text-white gap-2'>
+						<h5 class='mb-5 text-2xl font-semibold  text-center text-blue-500 dark:text-white gap-2'>
 							Developer Tools
 						</h5>
 					</a>

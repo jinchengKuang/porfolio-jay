@@ -4,7 +4,7 @@ import logo from '../assets/logo.png';
 
 const Navbar = () => {
 	return (
-		<nav className='bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 h-16'>
+		<nav className='bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 h-16 sticky top-0 z-10'>
 			<div className='container flex flex-wrap justify-between items-center mx-auto h-full'>
 				<a href='/#' className='flex items-center'>
 					<img src={logo} className='w-16' alt='JK.dev Logo' />

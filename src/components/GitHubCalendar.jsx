@@ -4,7 +4,7 @@ import GitHubCalendar from 'react-github-calendar';
 const GithubCalendar = () => {
 	return (
 		<div className='container flex flex-col justify-center mx-auto my-5 max-w-5xl px-5'>
-			<div className='text-center font-bold text-3xl mx-auto py-5'>
+			<div className='text-center font-bold text-5xl mx-auto py-5 mb-4'>
 				Days I'm{' '}
 				<span className='text-blue-600 tracking-wide font-extrabold'>
 					CODING

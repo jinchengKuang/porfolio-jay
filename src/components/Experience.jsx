@@ -1,12 +1,11 @@
 import React from 'react';
-import { AiFillCalendar, AiFillCode } from 'react-icons/ai';
-import { MdSimCardDownload } from 'react-icons/md';
+import { AiFillCode } from 'react-icons/ai';
 import { FaLaptopCode } from 'react-icons/fa';
 
 const Experience = () => {
 	return (
 		<div>
-			<div className='text-center text-3xl mx-auto my-12 text-blue-600 tracking-wide font-extrabold'>
+			<div className='text-center text-5xl mx-auto my-12 text-blue-600 tracking-wide font-extrabold'>
 				Work Experience
 			</div>
 			<div className='container flex justify-center mx-auto max-w-5xl'>

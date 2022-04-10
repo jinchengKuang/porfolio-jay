@@ -1,12 +1,11 @@
 import React from 'react';
 
 import { IoIosSchool } from 'react-icons/io';
-import { FaUniversity } from 'react-icons/fa';
 
 const Education = () => {
 	return (
 		<div>
-			<div className='text-center text-3xl  mx-auto my-12 text-blue-600 tracking-wide font-extrabold'>
+			<div className='text-center text-5xl  mx-auto my-12 text-blue-600 tracking-wide font-extrabold'>
 				Education
 			</div>
 			<div className='container flex justify-center mx-auto my-5 max-w-3xl'>
