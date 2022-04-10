@@ -8,8 +8,8 @@ const Experience = () => {
 			<div className='text-center text-5xl mx-auto my-12 text-blue-600 tracking-wide font-extrabold'>
 				Work Experience
 			</div>
-			<div className='container flex justify-center mx-auto max-w-5xl'>
-				<ol className='relative border-l border-b border-gray-200 dark:border-gray-700'>
+			<div className='container flex justify-center mx-auto'>
+				<ol className='relative border-l border-b border-gray-200 w-1/2 dark:border-gray-700'>
 					{/* work experience 1 */}
 					<li className='ml-6'>
 						<span className='flex absolute -left-4 justify-center items-center w-8 h-8 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900'>

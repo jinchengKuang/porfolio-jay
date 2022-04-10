@@ -2,11 +2,10 @@ import React from 'react';
 import Particles from 'react-tsparticles';
 import ParticleConfig from './config/particle-config';
 import Typewriter from 'typewriter-effect';
-import { MdOutlineWavingHand } from 'react-icons/md';
 
 const About = () => {
 	return (
-		<section>
+		<section id='about-section'>
 			{/* particle background */}
 			<Particles
 				params={ParticleConfig}

@@ -7,6 +7,7 @@ import {
 	Footer,
 	Navbar,
 	About,
+	Contact,
 } from './components';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 			<Education />
 			<Experience />
 			<GitHubCalendar />
+			<Contact />
 			<Footer />
 		</div>
 	);

@@ -1,10 +1,10 @@
 import React from 'react';
-
+import { HashLink } from 'react-router-hash-link';
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
 	return (
-		<nav className='bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 h-16 sticky top-0 z-10'>
+		<nav className='bg-white border-gray-200 px-2 mb-4 sm:px-4 py-2.5 rounded dark:bg-gray-800 h-16 sticky top-0 z-10'>
 			<div className='container flex flex-wrap justify-between items-center mx-auto h-full'>
 				<a href='/#' className='flex items-center'>
 					<img src={logo} className='w-16' alt='JK.dev Logo' />
@@ -15,7 +15,7 @@ const Navbar = () => {
 				<div className='flex md:order-2'>
 					<button
 						type='button'
-						className='text-white bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
+						className='text-white bg-blue-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
 					>
 						Contact Me
 					</button>

@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { IoIosSchool } from 'react-icons/io';
 
 const Education = () => {
@@ -8,8 +7,8 @@ const Education = () => {
 			<div className='text-center text-5xl  mx-auto my-12 text-blue-600 tracking-wide font-extrabold'>
 				Education
 			</div>
-			<div className='container flex justify-center mx-auto my-5 max-w-3xl'>
-				<ol class='items-center sm:flex'>
+			<div className='container flex justify-center mx-auto my-5'>
+				<ol class='items-center w-1/2 sm:flex'>
 					{/* education 1 */}
 					<li class='relative mb-6 min-h-full sm:mb-0'>
 						<div class='flex items-center'>

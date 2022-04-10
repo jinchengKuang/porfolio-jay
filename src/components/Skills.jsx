@@ -26,7 +26,7 @@ const Skills = () => {
 			<div className='text-center text-blue-600 tracking-wide font-extrabold text-5xl mx-auto my-12'>
 				Skills
 			</div>
-			<div className='container flex flex-row gap-8 flex-wrap justify-center mx-auto my-5 max-w-5xl'>
+			<div className='container flex flex-row gap-8 flex-wrap justify-center mx-auto my-5 w-2/3'>
 				{/* languages */}
 				<div class='p-6 w-1/4 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
 					<a href='/#'>
