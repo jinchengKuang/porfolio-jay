@@ -3,7 +3,7 @@ import { IoIosSchool } from 'react-icons/io';
 
 const Education = () => {
 	return (
-		<div>
+		<section id='educaton-section'>
 			<div className='text-center text-5xl  mx-auto my-12 text-blue-600 tracking-wide font-extrabold'>
 				Education
 			</div>
@@ -66,7 +66,7 @@ const Education = () => {
 					</li>
 				</ol>
 			</div>
-		</div>
+		</section>
 	);
 };
 
